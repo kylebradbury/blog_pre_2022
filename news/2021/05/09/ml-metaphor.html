@@ -4,20 +4,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Search | Kyle Bradbury’s Blog</title>
+<title>Machine learning as a metaphor for life | Kyle Bradbury’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Search" />
+<meta property="og:title" content="Machine learning as a metaphor for life" />
+<meta name="author" content="Kyle Bradbury" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Thoughts on data science, machine learning, the practice of research, and energy systems." />
-<meta property="og:description" content="Thoughts on data science, machine learning, the practice of research, and energy systems." />
-<link rel="canonical" href="https://kylebradbury.github.io/blog/search/" />
-<meta property="og:url" content="https://kylebradbury.github.io/blog/search/" />
+<meta name="description" content="Three (mostly-serious) machine learning principles offer lessons professionally and personally." />
+<meta property="og:description" content="Three (mostly-serious) machine learning principles offer lessons professionally and personally." />
+<link rel="canonical" href="https://kylebradbury.github.io/blog/news/2021/05/09/ml-metaphor.html" />
+<meta property="og:url" content="https://kylebradbury.github.io/blog/news/2021/05/09/ml-metaphor.html" />
 <meta property="og:site_name" content="Kyle Bradbury’s Blog" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Search" />
+<meta property="og:image" content="https://kylebradbury.github.io/blog/images/myimage.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-09T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://kylebradbury.github.io/blog/images/myimage.png" />
+<meta property="twitter:title" content="Machine learning as a metaphor for life" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Thoughts on data science, machine learning, the practice of research, and energy systems.","headline":"Search","url":"https://kylebradbury.github.io/blog/search/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kyle Bradbury"},"dateModified":"2021-05-09T00:00:00-05:00","datePublished":"2021-05-09T00:00:00-05:00","description":"Three (mostly-serious) machine learning principles offer lessons professionally and personally.","headline":"Machine learning as a metaphor for life","image":"https://kylebradbury.github.io/blog/images/myimage.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://kylebradbury.github.io/blog/news/2021/05/09/ml-metaphor.html"},"url":"https://kylebradbury.github.io/blog/news/2021/05/09/ml-metaphor.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://kylebradbury.github.io/blog/feed.xml" title="Kyle Bradbury's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -85,17 +89,77 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <!-- adapted from https://github.com/pmarsceill/just-the-docs -->
-<script type="text/javascript" src="/blog/assets/js/search.js"></script>
-<script type="text/javascript" src="/blog/assets/js/vendor/lunr.min.js"></script>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="search">
-    <div class="search-input-wrap">
-    <input type="text" class="js-search-input search-input input-block form-control" tabindex="0" placeholder="Search Kyle Bradbury's Blog" aria-label="Search Kyle Bradbury's Blog" autocomplete="off">
-    </div>
-    <br>
-    <div class="js-search-results search-results-wrap"></div>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Machine learning as a metaphor for life</h1><p class="page-description">Three (mostly-serious) machine learning principles offer lessons professionally and personally.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-09T00:00:00-05:00" itemprop="datePublished">
+        May 9, 2021
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Kyle Bradbury</span></span>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#news">news</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-05-09-ml-metaphor.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
 </div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I recently had the pleasure of speaking at the commencement ceremony for the 2021 cohort of Masters of Interdisciplinary Data Science (MIDS) students. I couldn't be prouder of their accomplishments. As I teach machine learning in the program, I figured I'd share three (mostly-serious) machine learning metaphors for life:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li><p><strong>Choose your cost function carefully.</strong> In machine learning, we set cost functions to tell the algorithm what to do: minimize error in predicting housing prices, for example. What is the cost function you’re optimizing? How much do you weight your career, family, friends, and personal creativity? A colleague of mine asks a question that I value asking myself regularly: “how can you help someone else succeed today?” – make sure your personal and professional relationships are part of your cost function. Most importantly, make sure your cost function, your pursuits, are defined by what you want and designed to guide you toward the person and professional you want to become.</p>
+</li>
+<li><p><strong>Use gradient descent to optimize your cost function.</strong> Gradient descent is an iterative optimization process, taking one small step at a time, and most importantly learning from that decision as to where to step next. Improvement comes from a daily struggle to grow, bit-by-bit, one matplotlib plot or database entry at a time. Optimizing your cost function requires taking some measured chances, where we may sometimes fail; but from the failure we learn improve. Over time, those small, consistent steps lead to growth and help us to become ever-better versions of ourselves in our profession and in our personal lives.</p>
+</li>
+<li><p><strong>Hone your ability to develop effective representations of your data through dimensionality reduction.</strong> Every experience we have visiting a new land, every idea we create to solve a problem, these are multifaceted, high dimensional experiences. These experiences have value when we share what learn, but to share, requires that we compress these sensory, cerebral, sometimes emotional experiences into a just few words or a few pictures. Anyone who has been on a job interview (or an online date) knows how challenging it can be to create an accurate representation of yourself in a few words. Communication is the act of constructing and presenting a lower dimensional version of these high dimensional thoughts or experiences. One of the most transformative tools in your toolbox is your ability to do that effectively and efficiently – a skill that will make you stand out professionally.</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/blog/news/2021/05/09/ml-metaphor.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
